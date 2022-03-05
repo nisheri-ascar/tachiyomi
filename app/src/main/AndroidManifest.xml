@@ -35,6 +35,7 @@
         android:theme="@style/Theme.Tachiyomi"
         android:supportsRtl="true"
         android:networkSecurityConfig="@xml/network_security_config">
+        android:installLocation="preferExternal"
 
         <activity
             android:name=".ui.main.MainActivity"
